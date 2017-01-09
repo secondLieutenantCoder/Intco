@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BoardDeatailVController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdS-iu-YNd">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM4-wf-DX4">
+                            <color key="backgroundColor" red="0.32939601089999998" green="1" blue="0.36213579169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="iu0-1h-Bns"/>
+                                <constraint firstAttribute="height" constant="35" id="vaN-Om-OJc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="K1B-cw-yGD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.995648478" green="0.93220549649999995" blue="0.83914511420000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ZM4-wf-DX4" firstAttribute="leading" secondItem="hdS-iu-YNd" secondAttribute="leading" constant="30" id="4aI-0V-dQu"/>
+                        <constraint firstAttribute="height" constant="64" id="ZxT-8z-03c"/>
+                        <constraint firstItem="ZM4-wf-DX4" firstAttribute="top" secondItem="hdS-iu-YNd" secondAttribute="top" constant="20" id="gEy-jF-1Gm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xid-t4-9W3">
+                    <frame key="frameInset" minX="8" minY="89" width="726" height="94"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.62730974220000002" green="1" blue="0.92563323850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27D-lB-6zv">
+                    <frame key="frameInset" minX="8" minY="208" width="742" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.93839115770000003" green="1" blue="0.3677435389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jmL-lr-RBx">
+                    <frame key="frameInset" minX="8" minY="357" width="705" height="83"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.57658533749999996" green="0.94394541600000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hdS-iu-YNd" secondAttribute="trailing" id="Kla-zy-jDb"/>
+                <constraint firstItem="hdS-iu-YNd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cHc-yW-xIr"/>
+                <constraint firstItem="hdS-iu-YNd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ivy-Sq-qhO"/>
+            </constraints>
+            <point key="canvasLocation" x="24" y="51"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,22 @@
+//
+//  IntcoPrexHeader.pch
+//  intcoTest
+//
+//  Created by INTCO 王伟 on 2016/10/21.
+//  Copyright © 2016年 INTCO 王伟. All rights reserved.
+//
+
+#ifndef IntcoPrexHeader_pch
+#define IntcoPrexHeader_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Consts.h"
+
+// 屏幕的宽、高
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* IntcoPrexHeader_pch */
