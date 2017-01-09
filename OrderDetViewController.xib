@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderDetViewController">
+            <connections>
+                <outlet property="tableView" destination="MsC-rM-n31" id="ggN-te-QFS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RE-Zt-7ho">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单明细" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAS-sn-zje">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="HIt-LO-HxR"/>
+                                <constraint firstAttribute="height" constant="35" id="w97-cu-Ex3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="0.14441627809999999" green="0.1121476213" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4B-b9-EXw">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="0MH-nq-dnx"/>
+                                <constraint firstAttribute="width" constant="75" id="Cjh-et-U1x"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="lhU-rY-aQE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.60544922379999999" green="0.82171521049999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="3rk-zd-gx8"/>
+                        <constraint firstItem="E4B-b9-EXw" firstAttribute="leading" secondItem="8RE-Zt-7ho" secondAttribute="leading" constant="30" id="9qq-Cw-LYW"/>
+                        <constraint firstItem="aAS-sn-zje" firstAttribute="top" secondItem="8RE-Zt-7ho" secondAttribute="top" constant="20" id="OxU-9v-7fA"/>
+                        <constraint firstItem="E4B-b9-EXw" firstAttribute="top" secondItem="8RE-Zt-7ho" secondAttribute="top" constant="22" id="Rmm-iw-gWs"/>
+                        <constraint firstItem="aAS-sn-zje" firstAttribute="centerX" secondItem="8RE-Zt-7ho" secondAttribute="centerX" id="z8y-H6-2V8"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MsC-rM-n31">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.995648478" green="0.93220549649999995" blue="0.83914511420000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8RE-Zt-7ho" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2hl-PM-lSb"/>
+                <constraint firstItem="MsC-rM-n31" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="40K-xR-Djy"/>
+                <constraint firstItem="MsC-rM-n31" firstAttribute="top" secondItem="8RE-Zt-7ho" secondAttribute="bottom" id="9cC-h0-iP7"/>
+                <constraint firstAttribute="bottom" secondItem="MsC-rM-n31" secondAttribute="bottom" id="GtH-bF-sPV"/>
+                <constraint firstAttribute="trailing" secondItem="8RE-Zt-7ho" secondAttribute="trailing" id="pZA-sT-U8v"/>
+                <constraint firstItem="8RE-Zt-7ho" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pgA-bd-dhx"/>
+                <constraint firstAttribute="trailing" secondItem="MsC-rM-n31" secondAttribute="trailing" id="qSr-18-ksr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
