@@ -26,8 +26,14 @@
     
     
     // 看过xcode git 教程之后 的 操作  branchWW
+    
+    [self setSubViews];
 }
 
+- (void)setSubViews{
+
+    
+}
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
