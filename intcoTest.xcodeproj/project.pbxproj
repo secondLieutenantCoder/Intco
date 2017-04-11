@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB93C3E1E9CFF330053293F /* GitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB93C3C1E9CFF330053293F /* GitViewController.m */; };
+		4AB93C3F1E9CFF330053293F /* GitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB93C3D1E9CFF330053293F /* GitViewController.xib */; };
 		901454921DBB4D92007A6F86 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901454901DBB4D92007A6F86 /* WebViewController.m */; };
 		901454931DBB4D92007A6F86 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901454911DBB4D92007A6F86 /* WebViewController.xib */; };
 		901D74C31DBDF0B400AF4F1D /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D74971DBDF0B400AF4F1D /* MJRefreshAutoFooter.m */; };
@@ -111,6 +113,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AB93C3B1E9CFF330053293F /* GitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitViewController.h; sourceTree = SOURCE_ROOT; };
+		4AB93C3C1E9CFF330053293F /* GitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitViewController.m; sourceTree = SOURCE_ROOT; };
+		4AB93C3D1E9CFF330053293F /* GitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GitViewController.xib; sourceTree = SOURCE_ROOT; };
 		9014548F1DBB4D92007A6F86 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		901454901DBB4D92007A6F86 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		901454911DBB4D92007A6F86 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
@@ -290,6 +295,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AB93C3A1E9CFF1D0053293F /* GitTest */ = {
+			isa = PBXGroup;
+			children = (
+				4AB93C3B1E9CFF330053293F /* GitViewController.h */,
+				4AB93C3C1E9CFF330053293F /* GitViewController.m */,
+				4AB93C3D1E9CFF330053293F /* GitViewController.xib */,
+			);
+			name = GitTest;
+			sourceTree = "<group>";
+		};
 		9014548E1DBB4D68007A6F86 /* introduce */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +463,7 @@
 		90A94C3E1DA78A4B005CA77A /* intcoTest */ = {
 			isa = PBXGroup;
 			children = (
+				4AB93C3A1E9CFF1D0053293F /* GitTest */,
 				90BED2941DC32C8700801AAB /* util */,
 				90D0CD431DBDE2C8000C835D /* 3rd */,
 				902DEDFA1DB9F3A0007CDDD6 /* other */,
@@ -788,6 +804,7 @@
 				90A94C4F1DA78A4B005CA77A /* LaunchScreen.storyboard in Resources */,
 				90C72FAB1DC04C62002CEFFE /* RepositoryViewController.xib in Resources */,
 				90A94C4C1DA78A4B005CA77A /* Assets.xcassets in Resources */,
+				4AB93C3F1E9CFF330053293F /* GitViewController.xib in Resources */,
 				901454931DBB4D92007A6F86 /* WebViewController.xib in Resources */,
 				90E1A2C41DBEDC1B007A693A /* SaleAssitantViewController.xib in Resources */,
 				90A94C4A1DA78A4B005CA77A /* Main.storyboard in Resources */,
@@ -862,6 +879,7 @@
 				901D74D21DBDF0B400AF4F1D /* MJRefreshConst.m in Sources */,
 				90E18E891E1C7C3A00702110 /* AFSecurityPolicy.m in Sources */,
 				90E587231DADFC9000BCE0BB /* WWButton.m in Sources */,
+				4AB93C3E1E9CFF330053293F /* GitViewController.m in Sources */,
 				901454921DBB4D92007A6F86 /* WebViewController.m in Sources */,
 				9092DDFA1DC0870B00F19B68 /* OrderDetViewController.m in Sources */,
 				90E786851E1B24A300317811 /* SSViewController.m in Sources */,
